@@ -1,18 +1,16 @@
+📈 YouTube Viral Video Forecasting
+Dataset Used:
+We utilized data from the YouTube Trending Video Dataset on Kaggle.
 
-# 🚀 **YouTube Viral Video Forecasting**
+🚀 Project Overview
+This project develops a machine learning model to predict whether a YouTube video will go viral based on its metadata, such as titles, tags, descriptions, and user engagement statistics. By leveraging natural language processing (NLP) and feature engineering techniques, the project aims to provide actionable insights to YouTube creators to optimize their content strategies.
 
-### Dataset Used
-
-We utilized data from the [YouTube Trending Video Dataset](https://www.kaggle.com/datasets/rsrishav/youtube-trending-video-dataset?resource=download&select=US_youtube_trending_data.csv) on Kaggle.
-
----
-
-## 🚀 **Project Overview**
-
-This project develops a machine learning model to predict whether a YouTube video will go viral based on its metadata, such as titles, tags, descriptions, and user engagement statistics.
-
----
-
+🎯 Objectives and Goals
+Predict virality by creating a supervised learning model to classify videos as viral or non-viral.
+Optimize content by identifying attributes that contribute to higher engagement and virality.
+Provide insights and recommendations for creators based on video metadata analysis.
+🛠️ Methodology
+Data Preprocessing:
 
 Removed non-finite and NaN values.
 Applied one-hot encoding for categorical features.
@@ -75,7 +73,4 @@ Evaluate the model using python evaluate_model.py.
 Detailed user guides and API documentation are available in the docs/ directory.
 
 🙌 Acknowledgments
-This project was developed as part of the Break Through Tech AI Studio in collaboration with Google. Special thanks to our TA, Saksham Mohan, and challenge advisors, Hunter Saine and Woon Ket Wong.
-
-## Acknowledgments
 This project was developed as part of the Break Through Tech AI Studio in collaboration with Google. Special thanks to our TA, Saksham Mohan, and challenge advisors, Hunter Saine and Woon Ket Wong.
