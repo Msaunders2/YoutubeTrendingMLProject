@@ -1,6 +1,7 @@
 📈 YouTube Viral Video Forecasting
+
 Dataset Used:
-We utilized data from the YouTube Trending Video Dataset on Kaggle.
+We utilized data from the YouTube Trending Video Dataset on Kaggle. (https://www.kaggle.com/datasets/rsrishav/youtube-trending-video-dataset/data?select=US_youtube_trending_data.csv)
 
 🚀 Project Overview
 This project develops a machine learning model to predict whether a YouTube video will go viral based on its metadata, such as titles, tags, descriptions, and user engagement statistics. By leveraging natural language processing (NLP) and feature engineering techniques, the project aims to provide actionable insights to YouTube creators to optimize their content strategies.
@@ -9,46 +10,53 @@ This project develops a machine learning model to predict whether a YouTube vide
 Predict virality by creating a supervised learning model to classify videos as viral or non-viral.
 Optimize content by identifying attributes that contribute to higher engagement and virality.
 Provide insights and recommendations for creators based on video metadata analysis.
-🛠️ Methodology
-Data Preprocessing:
 
+
+🛠️ Methodology
+
+Data Preprocessing:
 Removed non-finite and NaN values.
 Applied one-hot encoding for categorical features.
 Handled outliers using transformations and capping.
-Feature Engineering:
 
+Feature Engineering:
 Calculated metrics like like-to-dislike ratio, comment engagement rate, and views-per-hour.
 Created a user interaction restriction flag based on engagement indicators.
-Natural Language Processing (NLP):
 
+Natural Language Processing (NLP):
 Preprocessed text data from titles, tags, and descriptions using tokenization, lemmatization, and TF-IDF vectorization.
 Preserved viral signals, such as hashtags and capitalized terms.
-Modeling:
 
+Modeling:
 Trained a Random Forest Classifier to predict virality.
 Utilized correlation heatmaps to assess feature importance.
 Tested alternative models like logistic regression, k-means clustering, and hierarchical clustering for better insights.
-Evaluation:
 
+Evaluation:
 Used metrics like R-squared and accuracy to evaluate the model's performance.
+
 📊 Results and Key Findings
 Emotional words, call-to-action phrases, and optimal tag diversity strongly correlate with video virality.
 Descriptions featuring trending topics and engaging language increase the likelihood of reaching a wider audience.
 Rapid viewer engagement (e.g., high views-per-hour) is a strong predictor of virality.
+
 📈 Visualizations
 Correlation heatmaps highlighted relationships between numerical features.
 TF-IDF bar plots displayed top words contributing to video success.
 Box plots illustrated the distribution of features like view_count and comment_count.
+
 🔮 Potential Next Steps
 Incorporate non-viral video data to address class imbalance.
 Fine-tune models to reduce overfitting and improve generalizability.
 Analyze sentiment in video comments to provide deeper insights.
 Develop a machine learning pipeline for continuous updates as new data becomes available.
+
 👥 Individual Contributions
 Marionna Saunders: Feature engineering
 Alyssa King: One-hot encoding and handling feature correlations
 Shivani Elitem: Feature engineering and Random Forest modeling
 Risheetha Bhagawatula: Feature engineering, text data preprocessing, NLP for video descriptions
+
 📂 Sample Dataset
 A sample dataset containing metadata from trending YouTube videos is available in the data/ directory. It includes features like view count, tags, description, and likes-to-dislikes ratio.
 
@@ -56,18 +64,19 @@ A sample dataset containing metadata from trending YouTube videos is available i
 Requirements
 Python 3.8+
 Libraries: pandas, numpy, scikit-learn, nltk, matplotlib, keras, pytorch
+
 Steps
-Clone the repository by running git clone https://github.com/your-username/youtube-viral-video-forecasting.git and then cd youtube-viral-video-forecasting.
+1) Clone the repository by running git clone https://github.com/your-username/youtube-viral-video-forecasting.git and then cd youtube-viral-video-forecasting.
 
-Install dependencies using pip install -r requirements.txt.
+2) Install dependencies using pip install -r requirements.txt.
 
-Set up the environment by obtaining YouTube API credentials and placing them in a .env file. Adjust file paths in config.py as needed.
+3) Set up the environment by obtaining YouTube API credentials and placing them in a .env file. Adjust file paths in config.py as needed.
 
-Run data preprocessing with python preprocess.py.
+4) Run data preprocessing with python preprocess.py.
 
-Train the model by running python train_model.py.
+5) Train the model by running python train_model.py.
 
-Evaluate the model using python evaluate_model.py.
+6) Evaluate the model using python evaluate_model.py.
 
 📖 Documentation
 Detailed user guides and API documentation are available in the docs/ directory.
