@@ -1,14 +1,12 @@
-📈
-# YouTube Viral Video Forecasting 
+📈 YouTube Viral Video Forecasting 
 
-🚀 #Project Overview
+🚀 Project Overview
 This project develops a machine learning model to predict whether a YouTube video will go viral based on its metadata, such as titles, tags, descriptions, and user engagement statistics. By leveraging natural language processing (NLP) and feature engineering techniques, the project aims to provide actionable insights to YouTube creators to optimize their content strategies.
 
 🎯 Objectives and Goals
 Predict virality by creating a supervised learning model to classify videos as viral or non-viral.
 Optimize content by identifying attributes that contribute to higher engagement and virality.
 Provide insights and recommendations for creators based on video metadata analysis.
-
 
 🛠️ Methodology
 Data Preprocessing:
@@ -49,10 +47,10 @@ Analyze sentiment in video comments to provide deeper insights.
 Develop a machine learning pipeline for continuous updates as new data becomes available.
 
 👥 Individual Contributions
-Marionna Saunders: Feature engineering
-Alyssa King: One-hot encoding and handling feature correlations
-Shivani Elitem: Feature engineering, Heat Map Visualization, and Random Forest modeling
-Risheetha Bhagawatula: Feature engineering, text data preprocessing, NLP for video descriptions
+Marionna Saunders: Feature Engineering
+Alyssa King: One-Hot Encoding and Handling Feature Correlations
+Shivani Elitem: Feature Engineering, Heat Map Visualization, and Random Forest modeling
+Risheetha Bhagawatula: Feature Engineering, Text-Data Preprocessing, NLP for Video escriptions
 
 📂 Sample Dataset
 We utilized data from the YouTube Trending Video Dataset on Kaggle. (https://www.kaggle.com/datasets/rsrishav/youtube-trending-video-dataset/data?select=US_youtube_trending_data.csv)
