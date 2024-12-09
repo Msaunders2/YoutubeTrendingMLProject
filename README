@@ -45,7 +45,7 @@ This project develops a machine learning model to predict whether a YouTube vide
 - Develop a machine learning pipeline for continuous updates as new data becomes available.
 
 ## Individual Contributions
-- **Marionna Saunders**: Tokenization and NLP preprocessing for video titles.
+- **Marionna Saunders**: feature engineering
 - **Alyssa King**: One-hot encoding and handling feature correlations.
 - **Shivani Elitem**: Feature engineering and Random Forest modeling.
 - **Risheetha Bhagawatula**: Feature Engineering, Text Data Preprocessin, NLP for the Video Descriptions
