@@ -13,7 +13,6 @@ Provide insights and recommendations for creators based on video metadata analys
 
 
 🛠️ Methodology
-
 Data Preprocessing:
 Removed non-finite and NaN values.
 Applied one-hot encoding for categorical features.
