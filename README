@@ -48,7 +48,7 @@ Evaluation:
 
 👥 Individual Contributions
 - Marionna Saunders: Feature Engineering
-- Alyssa King: One-Hot Encoding and Handling Feature Correlations
+- Alyssa King: One-Hot Encoding, Title/Tag Processing, Handling Feature Correlations
 - Shivani Elitem: Feature Engineering, Heat Map Visualization, and Random Forest modeling
 - Risheetha Bhagawatula: Feature Engineering, Text-Data Preprocessing, NLP for Video descriptions
 
